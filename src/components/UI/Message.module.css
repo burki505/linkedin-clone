@@ -1,0 +1,75 @@
+.inbox{
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    width: 288px;
+    height: 50px;
+    min-height: 0%;
+    background: white;
+    z-index: 10;
+    cursor: pointer;
+    padding: 8px 8px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.25s all linear;
+}
+
+
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(166, 154, 177);
+    padding: 4px;
+}
+
+.show{
+    min-height: 90%;
+    
+}
+.hide{
+    min-height: 0%;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    font-family: var(--open-sans);
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+}
+.profile img{
+    width: 30px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.settings {
+    display: flex;
+    align-items: center;
+}
+.settings button{
+    border: none;
+    margin: 0 4px;
+    font-size: 14px;
+    background: transparent;
+    cursor: pointer;
+    padding: 8px;
+    color: var(--gray);
+    border-radius: 100%;
+}
+.settings button:hover{
+    background: var(--main-theme);
+}
+.inputForm{
+    margin-top: 8px;
+    position: relative;
+}
+.inputForm i{
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.message__group{
+    height: 600px;
+    overflow: auto;
+}

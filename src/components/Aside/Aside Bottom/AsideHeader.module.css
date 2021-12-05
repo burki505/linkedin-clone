@@ -1,0 +1,18 @@
+.sub__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 20px; */
+    margin: 1.5rem 0;
+}
+.sub__header a{
+    font-size: 0.75rem;
+    color: rgb(95, 95, 228);
+    font-weight: bold;
+}
+.sub__header i{
+    display: none;
+}
+.sub__header:hover.sub__header i{
+    display: block;
+}

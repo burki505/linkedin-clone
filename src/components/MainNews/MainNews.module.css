@@ -1,0 +1,29 @@
+.main__news{
+    width: 50%;
+    max-width: 540px;
+    margin: 0 2rem;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    margin-top: 0.8rem;
+    font-family: var(--open-sans);
+    cursor: pointer;
+}
+.filter hr{
+    width: 65%;
+}
+.filter p{
+    
+    color: var(--gray);
+    font-size: 0.7rem;
+    display: flex;
+    margin-left: 10px;
+}
+.filter p span{
+    color: black;
+    margin-left: 3px;
+}
+.filter p i {
+    margin-left: 10px;
+}

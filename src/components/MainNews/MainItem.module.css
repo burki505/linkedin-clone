@@ -1,0 +1,134 @@
+.main__item{
+    font-family: var(--open-sans);
+    padding: 1px 10px;
+    margin: 15px 0; 
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0;
+    font-size: 0.7rem;
+    color: var(--gray);
+    border-bottom: 1px solid var(--main-theme);
+    margin-bottom: 1rem;
+}
+.header p span{
+    color: black;
+    font-weight: 600;
+}
+.settings{
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    padding: 0 7px;
+    border-radius: 100%;
+    cursor: pointer;
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.settings p{
+    margin-bottom: 8px;
+    color: var(--gray);
+}
+.settings:hover{
+    background: var(--main-theme);
+}
+
+.main__body{
+
+}
+.main__body__profile{
+    display: flex;
+    align-items: center;
+}
+.main__body__profile img{
+    width: 50px;
+    border-radius: 100%;
+}
+.person{
+    margin-left: 10px;
+}
+.top{
+    display: flex;
+    align-items: center;
+}
+.top span{
+    margin-left: 5px;
+    color: var(--gray);
+    font-size: 0.8rem;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+}
+.description span{
+    color: var(--gray);
+    font-size: 0.8rem;
+}
+.description span:nth-child(2) i{
+    margin-left: 5px;
+}
+.main__para{
+    margin-top: 1rem;
+}
+.main__para p{
+    font-size: 0.85rem;
+    
+}
+.main__para img{
+    width: 100%;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+.likes{
+    padding: 5px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(197, 168, 168);
+}
+.likes__left{
+    font-size: 12px;
+}
+.likes__left i{
+    margin: 0 2px;
+    color: rgb(139, 80, 80);
+    cursor: pointer;
+}
+.likes__left span{
+    margin-left: 5px;
+    color: var(--gray);
+    font-size: 11px;
+}
+.comment{
+    font-size: 12px;
+    color: var(--gray);
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+    font-size: 15px;
+   
+}
+.buttons button{
+    border: none;
+    cursor: pointer;
+    color: rgb(134, 85, 85);
+    font-weight: 500;
+    letter-spacing: 1px;
+    background: transparent;
+    padding: 7px 20px;
+}
+.buttons button:hover{
+    background: var(--main-theme);
+}
+.buttons i{
+    font-size: 18px;
+    color: var(--gray);
+}

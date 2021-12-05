@@ -1,0 +1,30 @@
+.top{
+    padding: 15px 8px;
+    font-family: var(--open-sans);
+    margin-bottom: 1rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: var(--gray);
+}
+.header h4{
+    color: rgb(48, 38, 38);
+}
+.header i{
+    cursor: pointer;
+}
+
+.propose{
+    padding: 5px 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: var(--gray);
+}
+.propose:hover{
+    background: var(--main-theme);
+}

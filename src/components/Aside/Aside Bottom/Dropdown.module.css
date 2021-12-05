@@ -1,0 +1,11 @@
+.dropdown__item li{
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    color: var(--gray);
+    font-weight: bold;
+}
+.dropdown__item li span{
+    margin-left: 5px;
+}

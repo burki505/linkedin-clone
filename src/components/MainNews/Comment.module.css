@@ -1,0 +1,52 @@
+.container{
+    padding: 12px 5px; 
+}
+.top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-family: var(--open-sans);
+}
+.top img{
+    width: 50px;
+    border-radius: 100%;
+}
+.top input{
+    margin-left: 10px;
+    width: 100%;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid #D5D5D5;
+    padding: 0 1rem;
+    font-size: 16px;
+    cursor: pointer;
+}
+.top input:hover{
+    background: #EBEBEB;
+
+}
+
+.labels{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.label{
+    margin: 0 0.4rem;
+    font-family: var(--roboto);
+    padding: 0.7rem 1rem;
+    /* background: red; */
+    cursor: pointer;
+    transition: 0.2s all ease-in;
+    
+}
+.label:hover{
+    background: #EBEBEB;
+}
+.label i{
+    color: green;
+}
+.label span{
+    margin-left: 0.4rem;
+    color: var(--gray);
+}
