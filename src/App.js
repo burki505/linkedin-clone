@@ -1,18 +1,15 @@
-import { useContext } from "react";
+import { Routes, Route, Link } from "react-router-dom";
 import Navbar from "./components/Header/Navbar";
 import Layout from "./components/Layout/Layout";
-;
 
 
 function App() {
-
-
-
   return (
     <div className="App">
-       
-        <Navbar />
-        <Layout />
+      <Navbar />
+      <Routes>
+        <Route element={<Layout />} path="/" exact />
+      </Routes>
     </div>
   );
 }
